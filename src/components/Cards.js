@@ -7,7 +7,7 @@ function Cards() {
     <section id="portfolio">
       <div className="cards">
         <h1>Projects</h1>
-        <div className="h1__underline"></div>
+        <div className="h1__underline2"></div>
         <div className="cards__container">
           <div className="cards__wrapper">
             <ul className="cards__items">

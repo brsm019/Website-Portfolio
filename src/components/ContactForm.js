@@ -48,7 +48,8 @@ const ContactForm = () => {
   return (
     <section id="contact">
       <div className="titleC">
-        <h1>Get In Touch</h1>
+        <h1>Contact</h1>
+        <div className="h1__underline"></div>
         <div className="ContactForm">
           <div className="container">
             <div className="row">

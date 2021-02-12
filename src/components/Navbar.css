@@ -79,6 +79,8 @@
   transition: all 0.2s ease-out;
 }
 
-@media screen and (max-width: 960px) {
-  /* Add media queries */
+@media screen and (max-width: 640px) {
+  .navbar__logo {
+    visibility: hidden;
+  }
 }

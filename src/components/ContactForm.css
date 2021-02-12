@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   background: #21252d;
-  padding: 4rem;
+  padding: 2rem 4rem 4rem 4rem;
 }
 
 .input {
@@ -17,28 +17,60 @@
   background-color: #21252d;
 }
 
+.h1__underline {
+  background-color: white;
+  width: 4vw;
+  height: 2px;
+  margin: 20px auto 5px;
+}
+
 .titleC > h1 {
+  padding-top: 60px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 48px;
   color: white;
-  padding-top: 7vw;
 }
 
 .submit-btn {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
-  padding: 0.5vw 2vw;
+  padding: 10px 20px;
   border-radius: 2px;
-  font-size: 1.5vw;
+  font-size: 20px;
   outline: none;
   border: none;
   cursor: pointer;
   background-color: transparent;
   color: white;
-  border: 1px solid var(--primary);
+  border: 1px solid white;
+
+  transition: all 0.3s ease-in;
 }
 
 .submit-btn:hover {
   font-weight: 700;
-  transition: all 0.3s ease-out;
   background: #fff;
   color: #242424;
-  transition: 0.4s;
+}
+
+@media screen and (max-width: 960px) {
+  .titleC > h1 {
+    font-size: 60px;
+  }
+  .submit-btn {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .titleC > h1 {
+    font-size: 34px;
+  }
+  .submit-btn {
+    font-size: 12px;
+    padding: 6px 13px;
+  }
 }
