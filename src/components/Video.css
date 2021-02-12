@@ -3,15 +3,19 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: 8vw;
+  z-index: 0;
+  background: rgb(238, 238, 238);
 }
 
 .video__video {
   position: relative;
   border-radius: 15px;
-  max-width: 70vw;
+  max-width: 60vw;
+  height: auto;
   /* box-shadow: 4px 4px 15px 10px rgba(0, 0, 0, 0.2); */
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  z-index: 0;
+  margin: 60px auto;
 }
 
 .video__container {
@@ -22,6 +26,8 @@
 .video__description {
   margin-top: 7vw;
   margin-bottom: 3vw;
+  padding: 20px 10px 20px 10px;
+  border: grey solid;
 }
 
 .video__link {

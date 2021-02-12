@@ -17,7 +17,7 @@ function Navbar() {
       } else handleShow(false);
     });
     return () => {
-      window.removeEventListener("scroll");
+      window.removeEventListener("scroll", handleShow);
     };
   }, []);
 

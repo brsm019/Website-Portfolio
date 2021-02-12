@@ -8,7 +8,11 @@ import ContactForm from "../ContactForm";
 function Home() {
   return (
     <>
-      <HomeSection />
+      <HomeSection
+        src1="/videos/PlexusBg.mov"
+        h1="Bradley Smith"
+        p="Full-stack developer"
+      />
       <Cards />
       <ContactForm />
       <Footer />

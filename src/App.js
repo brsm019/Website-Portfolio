@@ -7,12 +7,14 @@ import BudgetCalculator from "./components/pages/BudgetCalculator";
 import FactsGame from "./components/pages/FactsGame";
 import Netflix from "./components/pages/Netflix";
 import MatchSoc from "./components/pages/MatchSoc";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
+        <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/budget-calculator" component={BudgetCalculator} />

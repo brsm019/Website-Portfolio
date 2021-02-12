@@ -1,11 +1,18 @@
 import React from "react";
 import Video from "../Video";
 import Title from "../Title";
+import LandingPage from "../LandingPage";
 
 function Netflix() {
   return (
     <div>
-      <Title title="Netflix" />
+      <LandingPage
+        src1="/videos/project-page-bg-3.mov"
+        h1="Netflix look-a-like"
+        p="Front-end application replicating Netflix's user interface"
+        btnText="VIEW VIDEO"
+        link="video"
+      />
       <Video
         video="/videos/netflix-video.mov"
         alt="Netflix"
