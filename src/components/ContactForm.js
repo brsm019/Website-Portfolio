@@ -65,7 +65,7 @@ const ContactForm = () => {
                       <div className="col-6">
                         <input
                           style={{
-                            width: "45vw",
+                            width: "60vw",
                             backgroundColor: "#1C2127",
                             border: "none",
                             borderRadius: "4px",
@@ -99,7 +99,7 @@ const ContactForm = () => {
                       <div className="col-6">
                         <input
                           style={{
-                            width: "45vw",
+                            width: "60vw",
                             backgroundColor: "#1C2127",
                             border: "none",
                             borderRadius: "4px",
@@ -130,7 +130,7 @@ const ContactForm = () => {
                       <div className="col">
                         <input
                           style={{
-                            width: "45vw",
+                            width: "60vw",
                             backgroundColor: "#1C2127",
                             border: "none",
                             borderRadius: "4px",
@@ -167,7 +167,7 @@ const ContactForm = () => {
                       <div className="col">
                         <textarea
                           style={{
-                            width: "45vw",
+                            width: "60vw",
                             backgroundColor: "#1C2127",
                             border: "none",
                             borderRadius: "4px",

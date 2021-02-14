@@ -1,4 +1,7 @@
 import React from "react";
+import ContactForm from "./ContactForm";
+import Footer from "./Footer";
+
 import "./Video.css";
 function Video({ video, description, link }) {
   return (
@@ -8,10 +11,14 @@ function Video({ video, description, link }) {
           <source src={video} type="video/mp4"></source>
         </video>
       </div>
-      <p className="video__description">{description}</p>
+      <div className="video__description__container">
+        <p className="video__description">{description}</p>
+      </div>
       <a className="video__link" href={link}>
         VIEW SOURCE CODE
       </a>
+      <ContactForm />
+      <Footer />
     </div>
   );
 }

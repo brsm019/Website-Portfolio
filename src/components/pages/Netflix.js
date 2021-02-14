@@ -16,7 +16,7 @@ function Netflix() {
       <Video
         video="/videos/netflix-video.mov"
         alt="Netflix"
-        description="Created with React, Node.js Express and PostgreSQL to persist data."
+        description="This is a frontend application that was used to test my knowledge of React, fetching from an API (TMDB) and also my CSS skills. For this project I used axios to create an instance and have all fetch requests in a file of their own for a separation of concerns. I then used React to display the information on the page and styled with CSS using flexbox."
         link="https://github.com/brsm019/react-netflix"
       />
     </div>

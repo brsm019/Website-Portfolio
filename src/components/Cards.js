@@ -38,6 +38,20 @@ function Cards() {
                 path="/match-soc"
               />
             </ul>
+            <ul className="cards__items">
+              <CardItem
+                src="images/todoList.png"
+                text="To Do List"
+                label="React"
+                path="/todolist"
+              />
+              <CardItem
+                src="images/tiktaktoe.png"
+                text="Noughts & Crosses"
+                label="React"
+                path="/noughtscrosses"
+              />
+            </ul>
           </div>
         </div>
       </div>

@@ -122,6 +122,9 @@
   .cards__item {
     margin-bottom: 2rem;
   }
+  .cards__item {
+    width: 80vw;
+  }
 }
 
 @media screen and (max-width: 960px) {

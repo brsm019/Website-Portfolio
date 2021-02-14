@@ -17,7 +17,7 @@ function FactsGame() {
         <Video
           video="/videos/facts-game-video.mov"
           alt="Facts Game"
-          description="Created with React, Node.js Express and PostgreSQL to persist data."
+          description="The project was carried out in a tech team of 5 individuals. We created the Facts! game and gaming platform. Enter a fact and lie then go against your teammates and see who knows most about everyone!"
           link="https://github.com/brsm019/Final-Project-Frontend"
         />
       </section>
