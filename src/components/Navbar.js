@@ -36,6 +36,11 @@ function Navbar() {
               </HashLink>
             </li>
             <li className="nav__item">
+              <HashLink smooth to="/#about" className="nav__links">
+                About
+              </HashLink>
+            </li>
+            <li className="nav__item">
               <HashLink smooth to="/#portfolio" className="nav__links">
                 Portfolio
               </HashLink>

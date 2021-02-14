@@ -1,0 +1,66 @@
+.about {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about__main__title {
+  margin-top: -40px;
+}
+
+.about__picture {
+  margin: 50px 0 30px 0;
+}
+
+.about__img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  height: auto;
+}
+
+.about__text__title {
+  text-align: center;
+  margin: 3vw 19vw;
+}
+
+.about__text__h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.about__text__paragraph {
+  margin-top: 30px;
+}
+
+.paragraph {
+  font-family: "Poppins";
+  font-weight: 200;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 960px) {
+  .about__img {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__img {
+    max-width: 220px;
+  }
+
+  .about__text__h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+  }
+
+  .paragraph {
+    font-family: "Poppins";
+    font-weight: 200;
+    font-size: 16px;
+  }
+}

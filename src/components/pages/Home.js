@@ -4,6 +4,7 @@ import Cards from "../Cards";
 import HomeSection from "../HomeSection";
 import Footer from "../Footer";
 import ContactForm from "../ContactForm";
+import About from "../About";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
         h1="Bradley Smith"
         p="Full-stack developer"
       />
+      <About />
       <Cards />
       <ContactForm />
       <Footer />
