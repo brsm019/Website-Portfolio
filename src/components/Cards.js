@@ -52,6 +52,20 @@ function Cards() {
                 path="/noughtscrosses"
               />
             </ul>
+            <ul className="cards__items">
+              <CardItem
+                src="images/spa.png"
+                text="Spa Website"
+                label="Work in industry"
+                path="/spa"
+              />
+              <CardItem
+                src="images/garage.png"
+                text="Vehicle Service Center"
+                label="Work in industry"
+                path="/garage"
+              />
+            </ul>
           </div>
         </div>
       </div>

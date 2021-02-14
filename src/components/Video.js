@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 import Footer from "./Footer";
 
 import "./Video.css";
-function Video({ video, description, link }) {
+function Video({ video, description, link, text }) {
   return (
     <div className="video">
       <div className="video__container">
@@ -15,7 +15,7 @@ function Video({ video, description, link }) {
         <p className="video__description">{description}</p>
       </div>
       <a className="video__link" href={link}>
-        VIEW SOURCE CODE
+        {text}
       </a>
       <ContactForm />
       <Footer />

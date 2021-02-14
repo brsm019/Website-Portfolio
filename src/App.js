@@ -10,6 +10,8 @@ import MatchSoc from "./components/pages/MatchSoc";
 import ScrollToTop from "./components/ScrollToTop";
 import Todolist from "./components/pages/Todolist";
 import Tiktaktoe from "./components/pages/Tiktaktoe";
+import Spa from "./components/pages/Spa";
+import Garage from "./components/pages/Garage";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <Route path="/match-soc" component={MatchSoc} />
           <Route path="/todolist" component={Todolist} />
           <Route path="/noughtscrosses" component={Tiktaktoe} />
+          <Route path="/spa" component={Spa} />
+          <Route path="/garage" component={Garage} />
         </Switch>
       </Router>
     </>

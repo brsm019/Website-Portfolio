@@ -18,6 +18,7 @@ function FactsGame() {
           video="/videos/facts-game-video.mov"
           alt="Facts Game"
           description="The project was carried out in a tech team of 5 individuals. We created the Facts! game and gaming platform. Enter a fact and lie then go against your teammates and see who knows most about everyone!"
+          text="VIEW SORCE CODE"
           link="https://github.com/brsm019/Final-Project-Frontend"
         />
       </section>

@@ -16,6 +16,7 @@ function Tiktaktoe() {
         video="/videos/tiktaktoe-video.mov"
         alt="Noughts&Crosses"
         description="My first React application written after learning the basics of React. The application uses an Object Oriented approach seen by the components being separated into their individual components, such as the board, game, sqaures and winner. Once the game logic was created it was styled using CSS."
+        text="VIEW SORCE CODE"
         link="https://github.com/brsm019/react-tik-tak-toe"
       />
     </div>

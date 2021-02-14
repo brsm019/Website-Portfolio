@@ -1,5 +1,4 @@
 import React from "react";
-import "./BudgetCalculator.css";
 import Video from "../Video";
 import LandingPage from "../LandingPage";
 
@@ -20,6 +19,7 @@ function BudgetCalculator() {
             video="/videos/budget-calculator-video.mov"
             alt="budget calculator"
             description="This is a full-stack project that acts a a budget calculator. The user can add and delete both income and expenditure and it will automatically update the total amount, the data persists with the use of a PostgreSQL database."
+            text="VIEW SORCE CODE"
             link="https://github.com/brsm019/React-Budget-Calculator-Frontend"
           />
         </section>
