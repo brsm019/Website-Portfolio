@@ -50,6 +50,7 @@ npm i
 ```
 npm start
 ```
+4. Navigate to https://localhost:3000 within the browser to view the website.
 
 ## Usage
 
