@@ -54,18 +54,18 @@ const ContactForm = () => {
   return (
     <section id="contact">
       <div className="titleC">
-        <h1 data-aos="slide-right" data-aos-once="false">
+        <h1 data-aos="slide-right" data-aos-once="true">
           Contact
         </h1>
         <div
           className="h1__underline"
           data-aos="fade"
-          data-aos-once="false"
+          data-aos-once="true"
         ></div>
         <div
           className="ContactForm"
           data-aos="zoom-in"
-          data-aos-once="false"
+          data-aos-once="true"
           data-aos-easing="ease-in-out-back"
         >
           <div className="container">

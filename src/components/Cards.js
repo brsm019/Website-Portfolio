@@ -12,18 +12,18 @@ function Cards() {
   return (
     <section id="portfolio">
       <div className="cards">
-        <h1 data-aos="slide-left" data-aos-once="false">
+        <h1 data-aos="slide-left" data-aos-once="true">
           Projects
         </h1>
         <div
           className="h1__underline2"
           data-aos="fade"
-          data-aos-once="false"
+          data-aos-once="true"
         ></div>
         <div className="cards__container">
           <div className="cards__wrapper">
             <ul className="cards__items">
-              <div data-aos="slide-up" data-aos-once="false">
+              <div data-aos="slide-up" data-aos-once="true">
                 <CardItem
                   src="images/budget-calculator.png"
                   text="Budget Calculator"
@@ -33,7 +33,7 @@ function Cards() {
               </div>
               <div
                 data-aos="slide-up"
-                data-aos-once="false"
+                data-aos-once="true"
                 data-aos-delay="100"
               >
                 <CardItem
@@ -45,7 +45,7 @@ function Cards() {
               </div>
             </ul>
             <ul className="cards__items">
-              <div data-aos="slide-up" data-aos-once="false">
+              <div data-aos="slide-up" data-aos-once="true">
                 <CardItem
                   src="images/netflix.png"
                   text="Netflix look-a-like"
@@ -55,7 +55,7 @@ function Cards() {
               </div>
               <div
                 data-aos="slide-up"
-                data-aos-once="false"
+                data-aos-once="true"
                 data-aos-delay="100"
               >
                 <CardItem
@@ -67,7 +67,7 @@ function Cards() {
               </div>
             </ul>
             <ul className="cards__items">
-              <div data-aos="slide-up" data-aos-once="false">
+              <div data-aos="slide-up" data-aos-once="true">
                 <CardItem
                   src="images/todoList.png"
                   text="To Do List"
@@ -77,7 +77,7 @@ function Cards() {
               </div>
               <div
                 data-aos="slide-up"
-                data-aos-once="false"
+                data-aos-once="true"
                 data-aos-delay="100"
               >
                 <CardItem
@@ -89,7 +89,7 @@ function Cards() {
               </div>
             </ul>
             <ul className="cards__items">
-              <div data-aos="slide-up" data-aos-once="false">
+              <div data-aos="slide-up" data-aos-once="true">
                 <CardItem
                   src="images/spa.png"
                   text="Spa Website"
@@ -99,7 +99,7 @@ function Cards() {
               </div>
               <div
                 data-aos="slide-up"
-                data-aos-once="false"
+                data-aos-once="true"
                 data-aos-delay="100"
               >
                 <CardItem

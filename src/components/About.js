@@ -18,7 +18,7 @@ function About() {
         <div className="about__picture">
           <img
             data-aos="flip-right"
-            data-aos-once="false"
+            data-aos-once="true"
             className="about__img"
             src="/images/mugshot2.png"
           />
@@ -27,7 +27,7 @@ function About() {
               <h1
                 className="about__text__h1"
                 data-aos="slide-right"
-                data-aos-once="false"
+                data-aos-once="true"
                 data-aos-delay="100"
               >
                 Who is this guy?
@@ -36,7 +36,7 @@ function About() {
                 <p
                   className="paragraph"
                   data-aos="slide-right"
-                  data-aos-once="false"
+                  data-aos-once="true"
                   data-aos-delay="200"
                 >
                   I'm a fullstack developer with experience in conquering real

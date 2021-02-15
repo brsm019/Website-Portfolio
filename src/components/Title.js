@@ -10,13 +10,13 @@ function Title({ title }) {
 
   return (
     <div className="title__container">
-      <h1 data-aos="slide-right" data-aos-once="false" className="title__text">
+      <h1 data-aos="slide-right" data-aos-once="true" className="title__text">
         {title}
       </h1>
       <div
         data-aos="fade"
         data-aos-delay="200"
-        data-aos-once="false"
+        data-aos-once="true"
         className="title__underline"
       ></div>
     </div>
