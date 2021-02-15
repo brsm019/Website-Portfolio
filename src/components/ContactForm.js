@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import "./ContactForm.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const ContactForm = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   const { register, errors, handleSubmit, reset } = useForm();
 
   const toastifySuccess = () => {
@@ -48,9 +54,20 @@ const ContactForm = () => {
   return (
     <section id="contact">
       <div className="titleC">
-        <h1>Contact</h1>
-        <div className="h1__underline"></div>
-        <div className="ContactForm">
+        <h1 data-aos="slide-right" data-aos-once="false">
+          Contact
+        </h1>
+        <div
+          className="h1__underline"
+          data-aos="fade"
+          data-aos-once="false"
+        ></div>
+        <div
+          className="ContactForm"
+          data-aos="zoom-in"
+          data-aos-once="false"
+          data-aos-easing="ease-in-out-back"
+        >
           <div className="container">
             <div className="row">
               <div className="col-12 text-center">

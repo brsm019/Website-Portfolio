@@ -31,3 +31,12 @@
     font-size: 34px;
   }
 }
+
+/* @keyframes slideIn {
+  from {
+    transform: translateX(-600px);
+  }
+
+  to {
+  }
+} */
