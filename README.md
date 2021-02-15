@@ -4,6 +4,7 @@ Working progress..
 
 ## Desktop View
 <img src="https://user-images.githubusercontent.com/70659641/107997061-d231d680-6fd9-11eb-8715-ce94c191b7e8.png" width="400" height="auto" style="padding:16px">
+
 ## Mobile View
 <img src="https://user-images.githubusercontent.com/70659641/107997414-9a775e80-6fda-11eb-8949-d9acde45cb4e.png" width="400" height="auto" style="padding: 16px">
   
