@@ -37,7 +37,7 @@
   margin: auto;
   margin-bottom: 4vw;
   font-weight: 700;
-  padding: 10px 20px;
+  padding: 15px 20px;
   text-align: center;
   border-radius: 2px;
   font-size: 30px;
@@ -91,6 +91,5 @@
   }
   .video__link {
     margin-top: 30px;
-    /* padding: 10px 20px; */
   }
 }
