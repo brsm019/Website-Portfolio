@@ -23,6 +23,7 @@ video {
   margin-top: -50px;
   font-family: "Titillium Web", sans-serif;
   font-weight: 400;
+  padding: 0 4vw 0 4vw;
 }
 
 .landing__page__container > p {
