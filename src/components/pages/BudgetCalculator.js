@@ -19,7 +19,7 @@ function BudgetCalculator() {
             video="/videos/budget-calculator-video.mov"
             alt="budget calculator"
             description="This is a full-stack project that acts a a budget calculator. The user can add and delete both income and expenditure and it will automatically update the total amount, built with React using useReducer hook and API context, the data persists with the use of a PostgreSQL database. For more info view the source code."
-            text="VIEW SORCE CODE"
+            text="VIEW SOURCE CODE"
             link="https://github.com/brsm019/React-Budget-Calculator-Frontend"
           />
         </section>

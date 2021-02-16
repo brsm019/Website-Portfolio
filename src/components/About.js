@@ -45,7 +45,7 @@ function About() {
                   mindset, working in agile teams and being part of something
                   bigger, where the societal impact is exponential are the
                   founding reasons of joining the industry and I am extremely
-                  excited as to what the future of tech holds.{" "}
+                  excited as to what the future of tech holds.
                 </p>
               </div>
             </div>

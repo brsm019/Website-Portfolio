@@ -21,7 +21,7 @@ function FactsGame() {
           A fullstack project to build the Facts! game and host it on a gaming platform where you enter a fact and lie then go against your teammates and see who knows most about everyone! The frontend was created with React, Storybook, MaterialUi, websockets. While the backend was built with AWS cognito, DynamoDB, node.js and websockets.
           
           For more information on tech stack click the link below."
-          text="VIEW SORCE CODE"
+          text="VIEW SOURCE CODE"
           link="https://github.com/brsm019/Final-Project-Frontend"
         />
       </section>
