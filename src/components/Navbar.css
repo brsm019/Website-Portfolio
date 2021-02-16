@@ -91,6 +91,9 @@
   .nav__item {
     display: none;
   }
+  .navbar__logo {
+    display: none;
+  }
 
   .dropdown {
     display: inline-block;

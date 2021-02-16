@@ -10,7 +10,7 @@
   position: relative;
   border-radius: 15px;
   max-width: 60vw;
-  height: auto;
+  height: 40vh;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   z-index: 0;
   margin: 60px auto 20px;
@@ -81,5 +81,15 @@
   }
   .video__link {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .video__description__container {
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+  .video__link {
+    margin-top: 30px;
   }
 }
