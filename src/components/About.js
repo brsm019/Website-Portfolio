@@ -37,7 +37,7 @@ function About() {
                   className="paragraph"
                   data-aos="slide-right"
                   data-aos-once="true"
-                  data-aos-delay="200"
+                  data-aos-delay="100"
                 >
                   I'm a fullstack developer with experience in conquering real
                   world problems in dynamic, remote tech teams. The creative

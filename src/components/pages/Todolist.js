@@ -15,7 +15,7 @@ function Todolist() {
       <Video
         video="/videos/ToDoList-video.mov"
         alt="Todolist"
-        description="One of my first react projects. The list functionality allows to add to the list, apply strike-throughs, remove individual items and delete all items. The majority of state logic was at the highest level separating concerns and extensive use of spread a slice operators."
+        description="One of my first react projects. The list functionality allows to add to the list, apply strike-throughs, remove individual items and delete all items. The majority of state logic was at the highest level separating concerns and extensive use of spread a slice operators. To view the GitHub repo, follow the link below."
         text="VIEW SORCE CODE"
         link="https://github.com/brsm019/React-to-do-list"
       />

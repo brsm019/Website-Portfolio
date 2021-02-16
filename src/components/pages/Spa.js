@@ -16,7 +16,7 @@ function Spa() {
         video="/videos/spa-video.mov"
         alt="Spa Residential Home"
         description="
-        Website creation for a local residential home. Carrying out the entire process from initial designs, through to development and deployment. This is their current site and can be viewed via the link below."
+        A website I created for a local residential home. Carrying out the entire process from initial designs, logo creation, promotional video, all the way through to development and deployment. This is their current site and can be viewed via the link below."
         text="VIEW WEBSITE"
         link="https://www.spa-residentialhome.co.uk/"
       />

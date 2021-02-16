@@ -15,7 +15,7 @@ function Spa() {
       <Video
         video="/videos/garage-video.mov"
         alt="Spa Residential Home"
-        description="Another website I created for a local vehicle service center. Carrying out the entire process from initial designs through to development and deployment. The startup company is no longer in operation."
+        description="A website I created for a local vehicle service center. Carrying out the entire process from initial designs and logo creation through to development and deployment."
         text="Back to Home"
         link="/"
       />

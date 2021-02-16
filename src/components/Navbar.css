@@ -79,14 +79,20 @@
   transition: all 0.2s ease-out;
 }
 
-@media screen and (max-width: 640px) {
-  .navbar__logo {
-    visibility: hidden;
-  }
+.dropdown {
+  display: none;
 }
 
-@media screen and (max-width: 530px) {
-  .navbar__container {
-    padding-left: 60px;
+@media screen and (max-width: 720px) {
+  .navbar {
+    justify-content: left;
+  }
+
+  .nav__item {
+    display: none;
+  }
+
+  .dropdown {
+    display: inline-block;
   }
 }
