@@ -37,6 +37,10 @@ video {
   margin-top: 10vh;
 }
 
+.landing__video__controls::-webkit-media-controls {
+  display: none;
+}
+
 @media screen and (max-width: 960px) {
   .landing__page__container > h1 {
     font-size: 70px;

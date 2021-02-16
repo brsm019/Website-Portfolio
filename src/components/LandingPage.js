@@ -8,7 +8,13 @@ function LandingPage({ src1, h1, p, btnText, link }) {
   return (
     <section id="landing">
       <div className="landing__page__container">
-        <video src={src1} autoPlay loop muted />
+        <video
+          src={src1}
+          autoPlay
+          loop
+          muted
+          className="landing__video__controls"
+        />
         <h1>{h1}</h1>
         <div className="landing__page__button">
           <Button text={btnText} link={link} />
