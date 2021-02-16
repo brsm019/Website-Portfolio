@@ -2,6 +2,8 @@ Working progress..
 
 # Website Portfolio
 
+You can view the deployed version here: https://findbradley.netlify.app/
+
 ## Desktop View
 <img src="https://user-images.githubusercontent.com/70659641/107997061-d231d680-6fd9-11eb-8715-ce94c191b7e8.png" width="400" height="auto" style="padding:16px">
 
@@ -38,6 +40,8 @@ Initial designs for application were created with Figma to give a clear goal of 
 The frontend was created with the framework React, utilising hooks, more specifically useState and useEffect, with the Navbar being created with react-router-dom and hash link for smooth transitions from one page to another. The application has been designed with responsiveness in mind, using media queries to create the Progressive Web App as well as utilising 'aos' for creating animations on scroll. In order to create and send a message to my personal email via the contact form without a backend I utilised react hook form, emailjs and react toastify.
 
 ## Installation
+
+To view the website, either visit the deployed version [here](https://findbradley.netlify.app/), or carry out the following steps:
 
 1. Clone the frontend:
 ```
