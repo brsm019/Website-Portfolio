@@ -1,5 +1,3 @@
-Working progress..
-
 # Website Portfolio
 
 You can view the deployed version here: https://findbradley.netlify.app/
